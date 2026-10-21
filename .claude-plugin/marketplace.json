@@ -10,5 +10,6 @@
       "source": "./plugins/invoicer",
       "description": "Local time tracking and invoice drafts from Invoicer"
     }
-  ]
+  ],
+  "description": "Local desktop MCP integrations for Invoicer"
 }
