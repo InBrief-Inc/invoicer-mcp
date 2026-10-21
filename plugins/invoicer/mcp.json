@@ -2,13 +2,12 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "invoicer": {
-      "type": "stdio",
-      "command": "npx",
+      "command": "node",
       "args": [
-        "-y",
-        "@invoicer/cli@2.4.0",
+        "${PLUGIN_ROOT}/server/dist/cli.js",
         "mcp"
-      ]
+      ],
+      "type": "stdio"
     }
   }
 }

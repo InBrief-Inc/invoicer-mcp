@@ -1,0 +1,7 @@
+{
+  "version": "2.4.0",
+  "sourceCommit": "8abbb65c86b27aead7aa742ccabad3073988d4c3",
+  "entrySha256": "e2d59b631a3db4942fda424e045388766b33bca935b5ee670d89fe7033bb3273",
+  "runtime": "Node.js >=22.18.0",
+  "transport": "MCP stdio"
+}

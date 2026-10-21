@@ -1,10 +1,9 @@
 {
   "mcpServers": {
     "invoicer": {
-      "command": "npx",
+      "command": "node",
       "args": [
-        "-y",
-        "@invoicer/cli@2.4.0",
+        "${CLAUDE_PLUGIN_ROOT}/server/dist/cli.js",
         "mcp"
       ]
     }
