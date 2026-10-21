@@ -1,0 +1,23 @@
+{
+  "name": "invoicer-mcp-distribution",
+  "private": true,
+  "version": "2.4.1",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-package.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "devDependencies": {
+    "@babel/generator": "7.29.1",
+    "@babel/parser": "7.29.0",
+    "@babel/traverse": "7.29.0",
+    "@babel/types": "7.29.0",
+    "@invoicer/cli": "2.4.0",
+    "esbuild": "0.25.12",
+    "@modelcontextprotocol/sdk": "1.32.1"
+  }
+}
