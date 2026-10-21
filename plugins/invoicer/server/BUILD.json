@@ -1,7 +1,82 @@
 {
-  "version": "2.4.0",
-  "sourceCommit": "8abbb65c86b27aead7aa742ccabad3073988d4c3",
-  "entrySha256": "e2d59b631a3db4942fda424e045388766b33bca935b5ee670d89fe7033bb3273",
+  "version": "2.4.1",
+  "sourcePackage": "@invoicer/cli@2.4.0",
+  "sourcePackageIntegrity": "sha512-T3QBSANFKy9bu5x61ZaloZ+nCXsAhRdY/blRtk4VcCWGosCrAYa2IMb6APYsJXeSfgrt0pvpKMNl2YlUyOULtQ==",
   "runtime": "Node.js >=22.18.0",
-  "transport": "MCP stdio"
+  "transport": "MCP stdio",
+  "packaging": "Readable JavaScript modules; no minification, runtime install or executable decoding",
+  "files": {
+    "modules/runtime-001.js": {
+      "bytes": 193829,
+      "sha256": "4947276a6c13af8095cdc07fc4e8f6d915f801350d509119ddd11b56d1ba613a"
+    },
+    "modules/runtime-002.js": {
+      "bytes": 193204,
+      "sha256": "a2945cfc4a9f53bacb3f99043dc0bbae28822d563ed34c2a3adbf63e8d1c2f80"
+    },
+    "modules/runtime-003.js": {
+      "bytes": 168040,
+      "sha256": "a27616b4663595d5b23929c8d24a971dad79c8e4f19721a44e2ee32efd7a4840"
+    },
+    "modules/runtime-004.js": {
+      "bytes": 179295,
+      "sha256": "5b4982f03ceed73de114374ce6a2530b5aac7898f5da8249a1f6da7fddfb0f5c"
+    },
+    "modules/runtime-005.js": {
+      "bytes": 122101,
+      "sha256": "00a17a990d1dbc0d04dcac0b533fb86beab16f77bb627f0bef721a83af26d81b"
+    },
+    "modules/runtime-006.js": {
+      "bytes": 174529,
+      "sha256": "568608a23e1270694882189615ee6a2148b5bf5e3305ea502f286138d656994f"
+    },
+    "modules/runtime-007.js": {
+      "bytes": 191047,
+      "sha256": "572604fc918f3551368f5e0b106d0abd2309f03d1b2ca80b24da3e2a91b15945"
+    },
+    "modules/runtime-008.js": {
+      "bytes": 192615,
+      "sha256": "4bfd0a162ec859d8fc642d2a3d984ae161a5c39bf4626d3a6fa7ae3340b67b2f"
+    },
+    "modules/runtime-009.js": {
+      "bytes": 189040,
+      "sha256": "53ca9376554e3fb51b9de50770dbd08a66bc174504cbabc13033222e207b5c7a"
+    },
+    "modules/runtime-010.js": {
+      "bytes": 190649,
+      "sha256": "bdf68af0eca886b6dd6768efccf36c50b8589ff19ab524ca2a9eef3aec624c21"
+    },
+    "modules/runtime-011.js": {
+      "bytes": 169406,
+      "sha256": "8b8e5ee31130cad2ead0a8d842bf48051ec2e9188594cd8f3bce4663d9cf9dd8"
+    },
+    "modules/runtime-012.js": {
+      "bytes": 159472,
+      "sha256": "93c494968440fca725ff053d41fc97866ae8b0d1b9c21be5904f5efbceb7ad49"
+    },
+    "modules/runtime-013.js": {
+      "bytes": 194307,
+      "sha256": "4b53a2b9eb70e579d31b3f4641a52fc8daf8dda89462e014c88baba3e827e361"
+    },
+    "modules/runtime-014.js": {
+      "bytes": 194251,
+      "sha256": "ded47b4171a49c265bc22211cc47f9284f0a55449d640cd98726302483d1719f"
+    },
+    "modules/runtime-015.js": {
+      "bytes": 182284,
+      "sha256": "3618602bfc65115f9ed36243222d2565598b0a70b79abef745e54a0238cddd67"
+    },
+    "modules/runtime-016.js": {
+      "bytes": 13636,
+      "sha256": "b9c25d4834be985fc4e79f4fa254d02cb8a8beaf2763549f46c85ff56f50626f"
+    },
+    "cli.js": {
+      "bytes": 5690,
+      "sha256": "1f0842c18e35999971a82d108d3ff5c5ea73cbde977f6d0c88fba775c0885404"
+    },
+    "THIRD_PARTY_NOTICES.txt": {
+      "bytes": 24590,
+      "sha256": "017b518a87419a9ae643e538d9fa9594924bd44d6a9bb267c1ce07d0f71f590d"
+    }
+  }
 }

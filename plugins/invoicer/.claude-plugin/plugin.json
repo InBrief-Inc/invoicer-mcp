@@ -1,6 +1,6 @@
 {
   "name": "invoicer",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "Read clients and work, manage timers, preview invoice drafts and export PDFs from your Invoicer workspace.",
   "author": {
     "name": "Milad Fahmy",
