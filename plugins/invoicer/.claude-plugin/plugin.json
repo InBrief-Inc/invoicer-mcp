@@ -8,5 +8,9 @@
     "url": "https://invoicer.inbrief.sh"
   },
   "homepage": "https://invoicer.inbrief.sh/mcp",
-  "license": "MIT"
+  "license": "MIT",
+  "documentationUrl": "https://github.com/InBrief-Inc/invoicer-mcp/blob/main/plugins/invoicer/README.md",
+  "supportUrl": "https://github.com/InBrief-Inc/invoicer-mcp/issues",
+  "privacyPolicyUrl": "https://github.com/InBrief-Inc/invoicer-mcp/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://invoicer.inbrief.sh/terms"
 }
