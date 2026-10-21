@@ -1,0 +1,44 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "invoicer",
+  "version": "2.4.0",
+  "description": "Read clients and work, manage timers, preview invoice drafts and export PDFs from your Invoicer workspace.",
+  "author": {
+    "name": "Milad Fahmy",
+    "email": "support@inbrief.sh",
+    "url": "https://invoicer.inbrief.sh"
+  },
+  "homepage": "https://invoicer.inbrief.sh/mcp",
+  "license": "MIT",
+  "keywords": [
+    "invoices",
+    "time-tracking",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Invoicer",
+        "shortDescription": "Time tracking and invoice drafts",
+        "longDescription": "Read clients and work, manage timers, preview invoice drafts and export PDFs from your Invoicer workspace.",
+        "developerName": "Milad Fahmy",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://invoicer.inbrief.sh/mcp",
+        "supportURL": "https://invoicer.inbrief.sh/mcp#support",
+        "privacyPolicyURL": "https://invoicer.inbrief.sh/privacy",
+        "termsOfServiceURL": "https://invoicer.inbrief.sh/terms",
+        "defaultPrompt": [
+          "Show my unbilled work for this month.",
+          "Preview an invoice for my completed work."
+        ],
+        "brandColor": "#2463EB",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

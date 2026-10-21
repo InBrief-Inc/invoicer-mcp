@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "invoicer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@invoicer/cli@2.4.0",
+        "mcp"
+      ]
+    }
+  }
+}

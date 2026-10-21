@@ -1,0 +1,14 @@
+{
+  "name": "invoicer-plugins",
+  "owner": {
+    "name": "Milad Fahmy",
+    "email": "support@inbrief.sh"
+  },
+  "plugins": [
+    {
+      "name": "invoicer",
+      "source": "./plugins/invoicer",
+      "description": "Local time tracking and invoice drafts from Invoicer"
+    }
+  ]
+}
